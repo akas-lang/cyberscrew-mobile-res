@@ -1,0 +1,259 @@
+/* this is for mobiles */
+@media screen and (min-width:360px) and (max-width:640px)
+{
+ 
+   
+    .fullpage{
+        width:100%;
+    }
+    .header .menus {
+        display: none;
+    }
+    .hambergur {
+        display: block;
+    }
+    
+    .ha,
+.hb,
+.hc {
+    background-color: black;
+}
+    .logo {
+        margin-right:50px;
+    }
+  
+    .auto-popup{
+        height: 330px;
+        width: 300px;
+        margin-left:30px;
+        margin-top:-50%;
+    }
+    .left-container h1 {
+        font-size: 30px;
+        color:brown;
+    }
+    .left-container {
+        margin-top:0%;
+        margin-left: 50%;
+        width:300px;
+    }
+    .left-container .text1{
+        width: 300px;
+        font-size: 20px;
+    }
+    .search-box{
+        height: 50px;
+         width: 300px;
+     }
+     .coding-image{
+        height: 280px;
+        width: 290px;
+    }
+    .container2{
+      width: 330px;
+      overflow: hidden;
+    }
+    .contents h1{
+       font-size: 20px;
+       padding:10px 0px 0px 40px;
+
+    }
+    .contents h2{
+      font-size: 15px;
+    }
+    .contents p{
+      width:150px;
+      padding: 20px 0px 0px 40px;
+    }
+    .react-img-cont img{
+        height: 100px;
+        width: 100px;
+        margin:100px 30px 0px 0px;
+    }
+    .container3,.container4,.container5{
+        height: 150px;
+        width: 330px;
+        margin-bottom:20px;
+    }
+    .dsa-img{
+        height:80px;
+        width: 80px;
+    }
+  .career , .caree{
+    display: none;
+  }
+    .container7{
+        width:330px;
+        height: 450px;
+        position: relative;
+        margin-left:13%;
+    }
+    .start-{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin: 5% 0% 0% 5%;     
+    }
+  .contento .p1{
+position: absolute;
+height: 100%;
+width: 90%;
+margin: 50% 0% 0% 5%;    
+  }
+  .stt{
+    position: absolute;
+    top:75%;
+    left: 10px;
+}
+
+  .accortion-cont{
+    flex-direction:column;
+}
+  .acc{
+    height:250px;
+    width: 250px;
+    margin-left:65%;
+    margin-top: 50px;
+}
+.acc-tab h1{
+    margin-bottom: 50px;
+    color: var(--color);
+    margin-left:10%;
+}
+.box {
+   margin-left:15%;
+   width: 300px;
+}
+.acc{
+    height: 300px;
+    width: 300px;
+    margin-left:60px;
+}
+.play-cards{
+ height: 2000px;
+ width: 100%;
+  }
+  .card1{
+  width:250px;
+  height:470px;
+  margin-left:15%;
+}
+.card1 h1{
+    font-size: 20px;
+}
+
+.card2{  
+    width:250px;
+    height:520px;
+    margin-left:15%;
+    margin-top:0px;
+
+   
+}
+.card2 h1{font-size: 20px;}
+.card3 h1{font-size: 20px;}
+
+.card3{  
+    width:250px;
+    height:470px;
+    margin-left:0%;
+    margin-top:0px;
+
+}
+
+.slider{
+    display: none;
+}
+.about{
+    display: none;
+}
+   
+        
+        .footer{
+            height: 750px;
+            flex-direction: column;
+            margin-top: 10%;
+        }
+        .abt {
+            margin-left:10%;
+        }
+    
+        .news {
+            margin-left:10%;
+        }
+      
+        .visit{      
+            margin-left:10%;
+        }
+   
+    
+}
+@media only screen and (min-width:500px) and (max-width:700px) {
+    
+    .header .menus {
+        margin-left: 100px;
+    }
+    .logo {
+        margin-right:180px;
+    }
+    .left-container h1 {
+        font-size: 50px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color:brown;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:900px) {
+    
+    .header .menus {
+        margin-left: 100px;
+    }
+    .logo {
+        margin-right: 200px;
+    }
+    .header .menus{
+        display: none;
+    }
+    .hambergur {
+        display: block;
+       
+    }
+    
+}
+
+@media only screen and (min-width:900px) and (max-width:1268px) {
+    .header .menus {
+        margin-left: 100px;
+    }
+    .header .menus a {
+        color: crimson;
+    }
+    .logo {
+        margin-right: 150px;
+    }
+    .menu {
+        display: none;
+    }
+    .left-container h1 {
+        font-size: 50px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color:blue;
+    }
+}
+
+    @media only screen and (min-width:1268px) and (max-width:1550px) {
+        .header .menus a {
+            color: white;
+        }
+        .menu {
+            display: none;
+        }
+        .left-container h1 {
+            font-size: 50px;
+            text-transform: capitalize;
+            font-weight: bold;
+            color:red;
+        }
+       
+    }
